@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+       
+        <div class="start-game hide">
+            <button class="start">Start The Game</button>
+        </div>
+        <div class="restart-game hide" >
+            <div class="restart">
+              <div class="moves-div">Moves <span class="moves">0</span> </div>
+              <button class="restart-btn"> Restart The Game </button>
+           </div>
+        </div>
+        <div class="game-container ">
+            <div class="game-moves">Moves : <span class="moves-span"></span></div>
+            <div class="game-parts">
+                <div class="pic-parts"> </div>
+                <div class="full-pic-container">
+                    <img src="pics/original_image.png" alt="" class="full-pic">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
